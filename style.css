@@ -1,0 +1,104 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica, arial;	
+	background-image: linear-gradient(-50deg, #2af977,#1cabd5);
+	min-height:100vh;
+		
+}
+header{
+	width: 70%;
+	height: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;		
+}
+.topo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 50px;
+	font-family: Calibri;	
+}
+main{
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+	font-style: italic;
+}
+.cadastro{	
+	background-color: #ccc;
+	width: 70%;
+	border-radius: 30px;
+	padding:20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.cadastro input{
+	width: 350px;
+	height: 30px;
+	border-radius: 30px;
+	border: 1px solid #ccc;
+	outline: none;
+	padding-left: 10px;
+	margin-bottom: 10px;
+
+}
+.cadastro-int{
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+}
+.cadastro-int .form-1{
+	padding-right:50px ;
+}
+.logo{
+	width: 100%;
+	height: 200px;
+	display: flex;	
+	justify-content: center;
+	margin-bottom: 10px;
+}
+.logo img {
+	width:auto;
+	height: 200px;
+}
+.botoes{
+	display: flex;
+	justify-content: space-between;
+}
+.botoes input{
+	width: 170px;
+	height: 30px;
+	background-image: linear-gradient(-50deg, #2af977,#1cabd5);
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	cursor: pointer;		
+}
+@media(max-width:1500px){
+	.cadastro-int .form-1 input {
+		width:100%;
+	}
+	.cadastro-int .form-2 input{
+		width: 100% ;
+		}
+		.cadastro{
+			width: 60% ;
+		}
+}
+@media(max-width:600px){
+	.cadastro-int .form-1 input {
+		width:50px;
+	}
+	.cadastro-int .form-2 input{
+		width: 50px ;
+		}
+@media(min-width:1600px){
+	.cadastro{
+		width:1300px ;
+	}
+}
