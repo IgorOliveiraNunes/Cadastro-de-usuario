@@ -3,7 +3,7 @@ body{
 	padding: 0;
 	font-family: helvetica, arial;	
 	background-image: linear-gradient(-50deg, #2af977,#1cabd5);
-	min-height:100vh;
+	min-height:100vh; 
 		
 }
 header{
@@ -19,7 +19,8 @@ header{
 	align-items: center;
 	color: #fff;
 	font-size: 50px;
-	font-family: Calibri;	
+	font-family:arial;
+	padding-left:30% ;
 }
 main{
 	display: flex;
@@ -97,8 +98,9 @@ main{
 	.cadastro-int .form-2 input{
 		width: 50px ;
 		}
+	}
 @media(min-width:1600px){
 	.cadastro{
-		width:1300px ;
-	}
-}
+		width:1300px ;}  
+         	}
+       
